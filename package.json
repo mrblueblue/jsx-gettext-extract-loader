@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/mrblueblue/jsx-gettext-extract-loader/issues"
   },
-  "homepage": "https://github.com/mrblueblue/jsx-gettext-extract-loader#readme"
+  "homepage": "https://github.com/mrblueblue/jsx-gettext-extract-loader#readme",
+  "dependencies": {
+    "loader-utils": "^0.2.11"
+  }
 }
