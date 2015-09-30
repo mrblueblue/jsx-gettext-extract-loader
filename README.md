@@ -30,7 +30,7 @@ _react2['default'].createElement(
 )
 ```
 
-Problem: gettext does not know what needs to be translated. It is look for "__('learn more')" and cannot read "(0, _i18n.__)('Learn more')"
+Problem: gettext does not know what needs to be translated. It is look for `__('learn more')` and cannot read `(0, _i18n.__)('Learn more')`
 
 Solution: extract out gettext translations to another file for gettext!
 
