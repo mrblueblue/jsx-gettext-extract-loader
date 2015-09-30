@@ -17,15 +17,15 @@ module.exports = function(source) {
 
   if (translations) {
 
-    fs.readFile(translationsPath, 'utf8', function(err, data) {
-      if (err) {
-        translations = translations.join('\n');
-      } else {
-        translations = translations.concat(data.split('\n')).join('\n');
-      }
+    try {    
+      var data = fs.readFileSync(translationsPath, 'utf8')
+      translations = translations.concat(data.split('\n')).join('\n');
+      
+    } catch (e){
+      translations = translations.join('\n')
+    }
 
-      fs.writeFileSync(translationsPath, translations);
-    });
+    fs.writeFileSync(translationsPath, translations);
   }
 
   return source;
