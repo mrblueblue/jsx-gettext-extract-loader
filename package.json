@@ -1,0 +1,26 @@
+{
+  "name": "jsx-gettext-extract-loader",
+  "version": "0.1.0",
+  "description": "extracts gettext strings from jsx",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrblueblue/jsx-gettext-extract-loader.git"
+  },
+  "keywords": [
+    "jsx",
+    "gettext",
+    "loader",
+    "webpack",
+    "react"
+  ],
+  "author": "Jonathan Huang <jonathan.huang@dailymotion.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrblueblue/jsx-gettext-extract-loader/issues"
+  },
+  "homepage": "https://github.com/mrblueblue/jsx-gettext-extract-loader#readme"
+}
