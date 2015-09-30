@@ -59,3 +59,5 @@ __('learn more')
 __('a new way to share')
 
 ```
+
+To be used in conjunction with something like [`grunt-xgettext`](https://github.com/arendjr/grunt-xgettext)
